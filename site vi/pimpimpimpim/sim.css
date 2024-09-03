@@ -1,0 +1,166 @@
+body{
+    background-image: url(imagens/minefundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.arthurimg{
+    border: 10px solid rgb(243, 243, 243);
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.nome{
+    color: white;
+    text-align: center;
+}
+
+.divimg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pro1{
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 1000px;
+}
+
+.divlogo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.logoimg{
+    display: flex;
+    margin-top: 10px;
+    width: 40%;
+    justify-content: center;
+}
+
+.pro2{
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.johnimg{
+    border: 10px solid rgb(243, 243, 243);
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.seccao{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-image: url(imagens/fundojogo1.jpeg);
+    }    
+}
+
+
+.perfil{
+    display: sticky;
+    width: 8%;
+    
+}
+
+.barra{
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 2px 2px 2px gray;
+    list-style-type: none;
+}
+
+.barra2{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.barra2 li{
+    padding: 10px 20px;
+}
+
+.textopfp{
+    text-decoration: none;
+    color: #007406;
+}
+
+.form-container{
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px black;
+    background-color: grey;
+}
+
+.form-container h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea{
+    resize: vertical;
+    height: 150px;
+}
+
+.form-group button{
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover{
+    background-color: rgb(36, 36, 36);
+}

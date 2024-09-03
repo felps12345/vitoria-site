@@ -1,0 +1,9 @@
+body{
+    background-color: #e5131c;
+}
+
+.casinha{
+    display: sticky;
+    width: 5%;
+    margin-top: 25;
+}
